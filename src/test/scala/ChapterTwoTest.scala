@@ -4,6 +4,7 @@
 
 import org.scalatest.FunSuite
 import ChapterTwo._
+
 class ChapterTwoTest   extends FunSuite{
   test("Tests for fib")  {
     assert(fib(0) == 0)
